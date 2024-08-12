@@ -12,7 +12,7 @@ body {
   color: #222;
 }
 
-.booklist {
+.Displaybooklist {
   width: 90vw;
   max-width: 1170px;
   margin: 5rem auto;
@@ -21,7 +21,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .booklist {
+  .Displaybooklist {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -31,6 +31,7 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
 
 .book img {
@@ -48,4 +49,26 @@ body {
   font-size: 0.75rem;
   margin-top: 0.5rem;
   letter-spacing: 2px;
+}
+
+.book p {
+  margin: 1rem 0 0.5rem;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: #c35600;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 4;
+  text-transform: capitalize;
 }
